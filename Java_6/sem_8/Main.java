@@ -101,7 +101,7 @@ public class Main {
                 .get();
     }
 
-    public List<Parent> psrentsOf(String childName, List<Parent> parents){
+    public List<Parent> parentsOf(String childName, List<Parent> parents){
         return parents.stream()
                 .filter(parent -> parent.getChild().getName().equals(childName))
                 .distinct()
@@ -110,6 +110,6 @@ public class Main {
 
     public List<Parent> parentsOfOldest(String child, List<Parent> parents){
         Child oldestChild = oldest(parents);
-        return psrentsOf(oldestChild.getName(), parents);
+        return parentsOf(oldestChild.getName(), parents);
     }
 }
