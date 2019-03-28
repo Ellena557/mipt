@@ -48,9 +48,7 @@ public class Main {
 
         List<Child> children = collectChildren2(parents, olderthan(18));
         List<Child> children1 = collectChildren2(parents, withName("Alex"));
-
         List<Child> children2 = collectChildren2(parents, withName("Alex").and(olderthan(20)));
-
     }
 
     private Predicate<Child> olderthan(int age){
