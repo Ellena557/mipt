@@ -12,12 +12,11 @@ public class Main {
     public static void run() {
         List<Integer> integers = Arrays.asList(5, 7, 18, 19);
         integers.sort((o1, o2) -> o2.compareTo(o1));
-
         System.out.println(integers);
     }
 
     public List<Child> collectChildren(List<Parent> parents){
-        Set<Child > kids = new LinkedHashSet<Child>();
+        Set<Child> kids = new LinkedHashSet<Child>();
         for(Parent parent : parents){
             Child child = parent.child;
             if (child.age >= 18) {
