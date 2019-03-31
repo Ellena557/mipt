@@ -6,7 +6,7 @@ public class Main {
         List l1 = new ArrayList(20);
         List l2 = new LinkedList();
 
-        l1.add(45); //Амортизированная стоимость: O(1)
+        l1.add(45); 
         l1.add(2, 35);
 
         Queue queue;
@@ -18,6 +18,5 @@ public class Main {
         Map map3 = new TreeMap();
         map.put("1212", 123);
         Object o = map.get("1212");
-
     }
 }
