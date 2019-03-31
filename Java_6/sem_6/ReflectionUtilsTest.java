@@ -27,7 +27,6 @@ class ReflectionUtilsTest extends ReflectionUtils {
         assertEquals(
                 asList("name, age"),
                 printAllFields("Alex")
-
         );
     }
 }
