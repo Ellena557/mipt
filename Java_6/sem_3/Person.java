@@ -26,7 +26,6 @@ public class Person {
         System.out.println(s1.equals(s2));
 
         //Поэтому лучше писать так:
-
         String ss1 = "Lol";
         String ss2 = "Lol";
 
@@ -48,10 +47,9 @@ public class Person {
         for (Map.Entry<String, Integer> entry : map.entrySet()){
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
+        
         Map<String, Integer> map2 = new LinkedHashMap<>();
         Map<String, Integer> map3 = new TreeMap<>();
-
-
     }
 
     @Override
@@ -68,6 +66,4 @@ public class Person {
         return age == person.age && Objects.equals(name, person.name);
         //return age == person.age && name.equalsIgnoreCase(person.name);
     }
-
-
 }
