@@ -33,7 +33,6 @@ public class ProducerConsumer {
         }
 
         public long produce(){
-
             return System.currentTimeMillis();
         }
     }
@@ -76,8 +75,5 @@ public class ProducerConsumer {
 
         producer.setName("Producer");
         consumer.setName("Consumer");
-
-        //producer.join();
-        //consumer.join();
     }
 }
