@@ -53,6 +53,4 @@ public class Main {
     private synchronized void run1(){
         //non-static method
     }
-
-
 }
