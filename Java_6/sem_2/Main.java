@@ -20,7 +20,6 @@ public class Main {
         Person person = new Person("Alex");
         rename(person);
         System.out.println(person.getName());
-
     }
 
     public static void rename(Person person){
