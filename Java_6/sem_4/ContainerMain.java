@@ -6,6 +6,7 @@ public class ContainerMain {
         container.set(12);
         Object o = container.get();
     }
+    
     private void add (List<Object> list){
         list.add(12);
         list.add("khuhrq");
