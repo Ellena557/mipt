@@ -10,5 +10,4 @@ public class ContainerImpl<T> implements Container {
     public Object get() {
         return o;
     }
-
 }
