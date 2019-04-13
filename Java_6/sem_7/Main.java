@@ -6,16 +6,6 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws NullPointerException{
 
-        /**
-         * Когда пишем свой exception, надо писать:
-         * - что произошло не так
-         * - почему это произошло
-         * - что нужно исправить
-         *
-         * Если в интерейсе не написано, что метод может бросить еxception,
-         * то в реализации его бросать нельзя!
-         **/
-
         try {
             new FileInputStream("file.txt");
             System.out.println("1");
