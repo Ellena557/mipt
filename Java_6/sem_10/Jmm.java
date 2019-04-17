@@ -34,7 +34,6 @@ public class Jmm {
         Jmm jmm = new Jmm();
 
         //new Thread(jmm::run).start();
-        //Thread.sleep(3); --- даже при 1 программа крутится бесконечно
         //new Thread(jmm::stop).start();
 
         new Thread(jmm::run2).start();
